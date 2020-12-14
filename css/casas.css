@@ -1,0 +1,9 @@
+.img {
+	width: 95%;
+	height: 600px;
+}
+
+.casas {
+	display: flex;
+    justify-content: center;
+}

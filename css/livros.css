@@ -1,0 +1,54 @@
+.principais {
+	width: 100%;
+	padding: 20px;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.extras {
+	width: 100%;
+	padding: 20px;
+	float: left;
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+	font-family: Arial Black;
+	font-size: 20px;
+	
+}
+
+.grid-livros {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 20%;
+}
+
+.grid-livros > div {
+	display: flex;
+	justify-content: center;
+}
+
+.grid-livros img {
+	display: block;
+	margin: 0 auto !important;
+	width: 90%;
+}
+
+.centro {
+	height: 500px;
+	padding: 20px;
+}
+
+.esquerda {
+	height: 500px;
+	padding: 20px;
+}
+
+.direita {
+	height: 500px;
+	padding: 20px;
+	margin-bottom: 0px;
+}

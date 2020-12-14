@@ -1,0 +1,19 @@
+
+.margem{
+    margin-left:0px;
+}
+
+header{
+    padding:1px;
+    margin-bottom:1px;
+    float:left;
+    padding: 0px 10px;
+}
+
+.logo{
+    max-width:450px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+}

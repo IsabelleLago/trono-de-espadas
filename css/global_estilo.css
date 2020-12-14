@@ -1,0 +1,43 @@
+html {
+	width:100%;
+	background-color: white;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+    
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding:0px;
+    background-color:white;
+    width:100%;
+}
+
+
+article {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    width:100%;
+    float:left;
+    clear:both;
+}
+
+.margem {
+    margin-left: 0px;
+}
+
+header {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+

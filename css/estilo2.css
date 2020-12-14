@@ -1,0 +1,132 @@
+html {
+	width:1300px;
+}
+
+body {
+	
+	background-color: white;
+	width: 100%;
+}
+
+.margem {
+	margin-left: 90px;
+}
+
+header {
+	padding: 1px;
+	margin-bottom: 1px;
+	width: 30%;
+	float: left;
+}
+
+nav {
+	padding: 10px;
+	margin-bottom: 1px;
+	width: 50%;
+	float: left;
+	clear: right;
+	margin-top: 130px;
+	margin-left: 5%;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Arial Black;
+	color: black;
+	font-size: 100%;
+	padding: 5px;
+
+	
+}
+
+nav ul li a:hover {
+	background-color: #0086b3;
+	color: white;
+}
+
+article {
+
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+.carrossel {
+	padding: 0px 0px;
+	margin-bottom: 70px;
+	width: 100%;
+}
+
+.linkcorpo {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+
+.livros {
+
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 40%;
+	float: left;
+	margin-left: 30px;
+}
+
+.livros:hover {
+	box-shadow: 5px 5px 5px 5px black;
+}
+.casas {
+
+	padding: 10px;
+	margin-bottom: 20px;
+    width: 40%;
+	float: left;
+	margin-left: 100px;
+	
+}
+
+.casas:hover {
+	box-shadow: 5px 5px 5px 5px black;
+}
+
+.personagens {
+	padding: 10px;
+    width: 40%;
+	float: left;
+	margin-left: 30px;
+}
+
+.personagens:hover {
+	box-shadow: 5px 5px 10px 10px black;
+}
+
+.mapas {
+
+	padding: 10px;
+	margin-bottom: 20px;
+    width: 40%;
+	float: left;
+	margin-left: 100px;
+	
+}
+
+.mapas:hover {
+	box-shadow: 5px 5px 5px 5px black;
+}
+
+footer {
+
+	padding: 10px;
+	width: 100%;
+	background-color: grey;
+	font-family: Calibri;
+	text-align: center;
+	clear: both;
+}
